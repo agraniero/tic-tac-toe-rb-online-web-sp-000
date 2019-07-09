@@ -1,5 +1,5 @@
 def play(board)
-  input = gets.strip
+  move(board, index, current_player)
 end
 
 
