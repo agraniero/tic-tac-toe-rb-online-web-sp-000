@@ -3,6 +3,7 @@
     "coverage": {
       "/home/algebraic-counter-4530/tic-tac-toe-rb-online-web-sp-000/lib/tic_tac_toe.rb": [
         1,
+        12,
         null,
         null,
         null,
@@ -107,6 +108,6 @@
         null
       ]
     },
-    "timestamp": 1562662564
+    "timestamp": 1562662692
   }
 }
