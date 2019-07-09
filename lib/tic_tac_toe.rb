@@ -6,10 +6,7 @@ def move(board, index, current_player = "X")
   board[index] = current_player
 end
 
-def position_taken?(board, index)
-  
-  board[index] ==  " " || board[index] == ""|| board[index] == nil ? false : true 
-end
+
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
