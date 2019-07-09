@@ -1,7 +1,10 @@
 def play(board)
-  move(board, index, current_player)
-  turn(board)
-  over?(board)
+  turn(board) until over?(board)
+  if won?(board)
+    puts "Congratulations #{winner(board)}!"
+  elsif draw?(board)
+    puts "Cat's Game!"
+  end
 end
 
 
